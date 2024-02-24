@@ -48,4 +48,9 @@
   - we can make a custom with not-found.jsx
 
 - Css Modules
+
   - Pretty cool concept
+
+- usePathname from next/navigation hook
+  - gives us access to the pathname
+  - needs to be a client component
