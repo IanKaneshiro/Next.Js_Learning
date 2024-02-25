@@ -52,5 +52,15 @@
   - Pretty cool concept
 
 - usePathname from next/navigation hook
+
   - gives us access to the pathname
   - needs to be a client component
+
+- ## Images in Next.js
+  - Next.js caches and optimizes images using the Image tag from next.js
+  - this tag takes attributes like: width, height, fill
+  - optimizes images according to screen size
+  - This does not allow us to use external images
+    - we can remedy this by adjusting our next.js.config to allow remote urls
+
+# Client vs Server
