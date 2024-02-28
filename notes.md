@@ -79,6 +79,7 @@
     - State management complexity
 
 - Client Side Rendering
+
   - Sends empty HTML and JS
   - User browser renders page
   - Pros
@@ -89,3 +90,8 @@
     - May affect SEO
     - Slower initial load
     - Dependent on client resources
+
+- We can change components to client components with 'use client'
+- If you want to interact with a user your component should be a client side component
+- If you are using a hook it needs to be a client component
+- we can get url params in server side components by destructioring in the components, using 'params' and 'searchParams'
