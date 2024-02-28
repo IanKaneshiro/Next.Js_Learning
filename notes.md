@@ -64,3 +64,28 @@
     - we can remedy this by adjusting our next.js.config to allow remote urls
 
 # Client vs Server
+
+- Server Side Rendering
+
+  - Server renders page and sends to client
+  - Pros
+    - Initial page load is faster
+    - Better for old devices and slow internet
+    - Better for SEO
+  - Cons
+    - Less interaction
+    - more server loads
+    - Slower subsequent page loads
+    - State management complexity
+
+- Client Side Rendering
+  - Sends empty HTML and JS
+  - User browser renders page
+  - Pros
+    - Better performance after initial load
+    - Less Server load
+    - Best for user interactivity
+  - Cons
+    - May affect SEO
+    - Slower initial load
+    - Dependent on client resources
