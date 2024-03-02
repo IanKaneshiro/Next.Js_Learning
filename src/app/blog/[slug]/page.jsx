@@ -35,7 +35,7 @@ const SinglePostPage = ({ params }) => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea
           officia a dolore distinctio obcaecati nobis maiores repellat similique
           corrupti, natus possimus ab nostrum, vero, quo rerum repudiandae quae
-          quod. Lorem ipsum dolor sit amet consectetur.
+          quod. Lorem ipsum dolor sit amet consectetur. Lorem
         </div>
       </div>
     </div>
