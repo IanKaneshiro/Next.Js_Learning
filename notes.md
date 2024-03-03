@@ -95,3 +95,10 @@
 - If you want to interact with a user your component should be a client side component
 - If you are using a hook it needs to be a client component
 - we can get url params in server side components by destructioring in the components, using 'params' and 'searchParams'
+
+## Fetching data in server components
+
+- Next.js caches the api repsonses. So it makes it faster and more efficient
+- if you dont want to cache data. add {cache: 'no-store'} to the fetch request
+  It will be slower but you will always have fresh data
+  - {next: {revalidate: 3600}} <- this will refresh data every hour>
