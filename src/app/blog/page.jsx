@@ -1,6 +1,6 @@
 import styles from "./blog.module.css";
 import PostCard from "../../components/postCard/PostCard";
-import { getPosts } from "../../lib/data";
+import { getPosts, getUsers } from "../../lib/data";
 
 // FETCH DATA WITH AN API
 // const getData = async () => {
@@ -17,6 +17,8 @@ const BlogPage = async () => {
   // const posts = await getData();
 
   const posts = await getPosts();
+  const users = await getUsers();
+  console.log(posts, users);
   return (
     <div className={styles.container}>
       {posts.map((post) => (
