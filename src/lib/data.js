@@ -4,6 +4,7 @@
 //   { id: 2, nane: "Jane" },
 // ];
 import { User, Post } from "../lib/models";
+import { connectToDb } from "./utils";
 
 // const posts = [
 //   { id: 1, title: "Post 1", body: ".........", userId: 1 },
